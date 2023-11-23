@@ -1,0 +1,2938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Work\Hardware_Design\Tracer\Tracer.sch</source>
+    <date>2023/07/26 7:06:53</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Tracer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sensor&amp;UI/" tstamps="/6446DF75/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sensor&amp;UI.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Wireless_Module/" tstamps="/64B0E7EC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Wireless_Module.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C6">
+      <value>10μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>http://componentsearchengine.com/Datasheets/1/GRM188R6YA106MA73D.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R6YA106MA73D</field>
+        <field name="Mouser Part Number">81-GRM188R6YA106MA3D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R6YA106MA73D" part="GRM188R6YA106MA73D" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>649406CC</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>649406C0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>http://componentsearchengine.com/Datasheets/1/GRM188R6YA106MA73D.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R6YA106MA73D</field>
+        <field name="Mouser Part Number">81-GRM188R6YA106MA3D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R6YA106MA73D" part="GRM188R6YA106MA73D" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6434DF2B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6448EFED</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>MPU-6500</value>
+      <footprint>MPU-6500:QFN40P300X300X95-25N-D</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6500-datasheet2.pdf</datasheet>
+      <fields>
+        <field name="Description">IMUs - Inertial Measurement Units 6-Axis MEMS MotionTracking  Device with DMP</field>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">MPU-6500</field>
+        <field name="Mouser Part Number">410-MPU-6500</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/MPU-6500?qs=u4fy%2FsgLU9PiIOIlWOSPhQ%3D%3D</field>
+      </fields>
+      <libsource lib="MPU-6500" part="MPU-6500" description="IMUs - Inertial Measurement Units 6-Axis MEMS MotionTracking  Device with DMP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>644BF211</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6434D41F</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>TB6612FNG,C,8,EL</value>
+      <footprint>TB6612FNG:SOP65P760X160-24N</footprint>
+      <datasheet>http://toshiba.semicon-storage.com/info/docget.jsp?did=10660&amp;prodName=TB6612FNG</datasheet>
+      <fields>
+        <field name="Description">otor / Motion / Ignition Controllers &amp; Drivers Brush Motor Driver IC</field>
+        <field name="Height">1.6</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">TB6612FNG,C,8,EL</field>
+        <field name="Mouser Part Number">757-TB6612FNGC8EL</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/TB6612FNGC8EL?qs=rsevcuukUAy2UalRuv4E%2FQ%3D%3D</field>
+      </fields>
+      <libsource lib="TB6612FNG_C_8_EL" part="TB6612FNG,C,8,EL" description="otor / Motion / Ignition Controllers &amp; Drivers Brush Motor Driver IC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642718D2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6430D073</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>FDS6576</value>
+      <footprint>FDS6576:SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/751EB.PDF</datasheet>
+      <fields>
+        <field name="Description">FDS6576, P-channel MOSFET Transistor 11 A 20 V, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">FDS6576</field>
+        <field name="Mouser Part Number">512-FDS6576</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDS6576?qs=FOlmdCx%252BAA1N14vq5QZP7Q%3D%3D</field>
+      </fields>
+      <libsource lib="FDS6576" part="FDS6576" description="FDS6576, P-channel MOSFET Transistor 11 A 20 V, 8-Pin SOIC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641A6A87</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Power_SW</value>
+      <footprint>MHSS1104:SW_MHSS1104</footprint>
+      <fields>
+        <field name="MANUFACTURER">APEM Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">5.5mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="MHSS1104" part="MHSS1104" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6424D5BE</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>NJM2391DL1-05</value>
+      <footprint>NJM2391DL1-33-TE1:TO-252-3-L1</footprint>
+      <fields>
+        <field name="Description">LDO Voltage Regulators LDO</field>
+        <field name="Manufacturer_Name">New Japan Radio</field>
+        <field name="Manufacturer_Part_Number">NJM2391DL1-33-TE1</field>
+        <field name="Mouser Part Number">513-NJM2391DL133-TE1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NJR/NJM2391DL1-33-TE1?qs=l%2FzmVEvW4JpmmNoqbD2bKw%3D%3D</field>
+      </fields>
+      <libsource lib="NJM2391DL1-05-TE1" part="NJM2391DL1-05-TE1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>644B2924</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64215E38</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>643E2F77</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>NJM2391DL1</value>
+      <footprint>NJM2391DL1-33-TE1:TO-252-3-L1</footprint>
+      <fields>
+        <field name="Description">LDO Voltage Regulators LDO</field>
+        <field name="Manufacturer_Name">New Japan Radio</field>
+        <field name="Manufacturer_Part_Number">NJM2391DL1-33-TE1</field>
+        <field name="Mouser Part Number">513-NJM2391DL133-TE1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NJR/NJM2391DL1-33-TE1?qs=l%2FzmVEvW4JpmmNoqbD2bKw%3D%3D</field>
+      </fields>
+      <libsource lib="NJM2391DL1-33-TE1" part="NJM2391DL1-33-TE1" description="LDO Voltage Regulators LDO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641D2F83</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64217C64</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Moter_R</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>643083DE</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Moter_L</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642FB861</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6422EF0D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6421A42E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642189F2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>B3B-PH-K-S_LF__SN_</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2mm_Drill1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-PH-K-S(LF)(SN)/455-1705-ND/926612</field>
+        <field name="Description">CONN HEADER VERT 3POS 2MM</field>
+        <field name="Digi-Key_PN">455-1705-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-PH-K-S(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-PH-K-S_LF__SN_" description="CONN HEADER VERT 3POS 2MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64198655</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64C9D876</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>649B23A4</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64C4AF47</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642893A7</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>http://componentsearchengine.com/Datasheets/1/GRM188R6YA106MA73D.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R6YA106MA73D</field>
+        <field name="Mouser Part Number">81-GRM188R6YA106MA3D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R6YA106MA73D" part="GRM188R6YA106MA73D" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642D31E5</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642D31D9</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2.2μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>http://componentsearchengine.com/Datasheets/1/GRM188R6YA106MA73D.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R6YA106MA73D</field>
+        <field name="Mouser Part Number">81-GRM188R6YA106MA3D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R6YA106MA73D" part="GRM188R6YA106MA73D" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642893B3</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64A8262A</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64AA1703</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64B69CDC</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64BC667A</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>2.2μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>http://componentsearchengine.com/Datasheets/1/GRM188R6YA106MA73D.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R6YA106MA73D</field>
+        <field name="Mouser Part Number">81-GRM188R6YA106MA3D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R6YA106MA73D" part="GRM188R6YA106MA73D" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64BC6686</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>RST_SW</value>
+      <footprint>SKRPACE010:SMT_4.2X3.2_</footprint>
+      <datasheet>http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches 4.2x3.2x2.5mm 260gf</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">SKRPACE010</field>
+        <field name="Mouser Part Number">688-SKRPACE010</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D</field>
+      </fields>
+      <libsource lib="SKRPACE010" part="SKRPACE010" description="Tactile Switches 4.2x3.2x2.5mm 260gf"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64A49C08</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470μF</value>
+      <footprint>CAPPRD500W65D1000H1300</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C247.pdf</datasheet>
+      <fields>
+        <field name="Description">Panasonic 470uF 16 V dc Polymer Aluminium Electrolytic Capacitor F13, OS-CON Series 5000h 10 x 13mm</field>
+        <field name="Height">13</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">16SEPC470M</field>
+        <field name="Mouser Part Number">667-16SEPC470M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/16SEPC470M?qs=OE1iw1LrrPEdZuWyF2l%252B5w%3D%3D</field>
+      </fields>
+      <libsource lib="16SEPC470M" part="16SEPC470M" description="Panasonic 470uF 16 V dc Polymer Aluminium Electrolytic Capacitor F13, OS-CON Series 5000h 10 x 13mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64B28CDA</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.01μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64AE9F3D</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64AE0291</tstamp>
+    </comp>
+    <comp ref="IC6">
+      <value>STM32F405RGT6TR</value>
+      <footprint>STM32F405RGT6TR:QFP50P1200X1200X160-64N</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf</datasheet>
+      <fields>
+        <field name="Description">STM32F405RGT6TR, 32 bit ARM Cortex M4 MCU 168MHz 1024 kB Flash, 192 kB RAM, 2xUSB CAN I2C 64-Pin LQFP</field>
+        <field name="Height">1.6</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">STM32F405RGT6TR</field>
+        <field name="Mouser Part Number">511-STM32F405RGT6TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F405RGT6TR?qs=MavH1QghrkHshpR6GkvPIg%3D%3D</field>
+      </fields>
+      <libsource lib="Tracer-rescue" part="STM32F405RGT6TR-STM32F405RGT6TR-Tracer-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641A7F5B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100μF</value>
+      <footprint>GRM31CR61A107MEA8K:CAPC3216X180N</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 100UF    10V   20%        3216</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM31CR61A107MEA8K</field>
+        <field name="Mouser Part Number">81-GRM31CR61A107MA8K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31CR61A107MEA8K?qs=hd1VzrDQEGiKPwOlEhCnYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM31CR61A107MEA8K" part="GRM31CR61A107MEA8K" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100UF    10V   20%        3216"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>643DBA93</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100μF</value>
+      <footprint>GRM31CR61A107MEA8K:CAPC3216X180N</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 100UF    10V   20%        3216</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM31CR61A107MEA8K</field>
+        <field name="Mouser Part Number">81-GRM31CR61A107MA8K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31CR61A107MEA8K?qs=hd1VzrDQEGiKPwOlEhCnYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM31CR61A107MEA8K" part="GRM31CR61A107MEA8K" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100UF    10V   20%        3216"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64401698</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>644016A4</tstamp>
+    </comp>
+    <comp ref="IC16">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A036CB</tstamp>
+    </comp>
+    <comp ref="IC15">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A036AF</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A0369A</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A03682</tstamp>
+    </comp>
+    <comp ref="IC14">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A03656</tstamp>
+    </comp>
+    <comp ref="IC13">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A0363A</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A0360A</tstamp>
+    </comp>
+    <comp ref="IC12">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A03603</tstamp>
+    </comp>
+    <comp ref="IC11">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A035E5</tstamp>
+    </comp>
+    <comp ref="IC22">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649D48D4</tstamp>
+    </comp>
+    <comp ref="IC21">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649D48B8</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649D48A3</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649BD189</tstamp>
+    </comp>
+    <comp ref="IC20">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>6499F7EC</tstamp>
+    </comp>
+    <comp ref="IC19">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>6499F7D0</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64996DA0</tstamp>
+    </comp>
+    <comp ref="IC18">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64996D99</tstamp>
+    </comp>
+    <comp ref="IC17">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64996D7B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>6496AA23</tstamp>
+    </comp>
+    <comp ref="IC8">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>6496AA1B</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64948F80</tstamp>
+    </comp>
+    <comp ref="IC10">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649340B1</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B49D49</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B51600</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B5970C</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B6139E</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B6909A</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B815BF</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64BB30DB</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64BC3E3B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRLML6344TRPBF</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="IRLML6344TRPBF" description="MOSFET N-CH 30V 5A SOT23"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A7EFEF</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>100k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A7EFF5</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>470</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64A7EFFE</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRLML6344TRPBF</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="IRLML6344TRPBF" description="MOSFET N-CH 30V 5A SOT23"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64AD3325</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>100k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64AD332B</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>470</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64AD3334</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>503480-1200</value>
+      <footprint>503480-1200:5034801200</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/65e35df525de5b425777c2b4324b65df.pdf</datasheet>
+      <fields>
+        <field name="Description">FFC &amp; FPC Connectors .5mm FPC 12P CONN RA SMT B-FLIP DUAL</field>
+        <field name="Height">1.3</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">503480-1200</field>
+        <field name="Mouser Part Number">538-503480-1200</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/503480-1200?qs=bodV9ulq6Gw8h%2FV8uzKDbQ%3D%3D</field>
+      </fields>
+      <libsource lib="503480-1200" part="503480-1200" description="FFC &amp; FPC Connectors .5mm FPC 12P CONN RA SMT B-FLIP DUAL"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>643C4496</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRLML6344TRPBF</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="IRLML6344TRPBF" description="MOSFET N-CH 30V 5A SOT23"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649F7627</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>100k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649F762D</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>470</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649F7636</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>503480-1200</value>
+      <footprint>503480-1200:5034801200</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/65e35df525de5b425777c2b4324b65df.pdf</datasheet>
+      <fields>
+        <field name="Description">FFC &amp; FPC Connectors .5mm FPC 12P CONN RA SMT B-FLIP DUAL</field>
+        <field name="Height">1.3</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">503480-1200</field>
+        <field name="Mouser Part Number">538-503480-1200</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/503480-1200?qs=bodV9ulq6Gw8h%2FV8uzKDbQ%3D%3D</field>
+      </fields>
+      <libsource lib="503480-1200" part="503480-1200" description="FFC &amp; FPC Connectors .5mm FPC 12P CONN RA SMT B-FLIP DUAL"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>643C66AE</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64BCC029</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64BAAB99</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B424D9</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B3AE8A</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B338CD</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B2C62C</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B253E6</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B1712B</tstamp>
+    </comp>
+    <comp ref="IC9">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649306E4</tstamp>
+    </comp>
+    <comp ref="IC7">
+      <value>TPR-105F</value>
+      <footprint>TPR-105F:TPR-105F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+      </fields>
+      <libsource lib="TPR-105F" part="TPR-105F" description="Miniature Reflective Object Sensor"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>6496A9FC</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B05F3D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64ACDA45</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64AFCC4B</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B0F93C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649334E5</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649329FF</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>TVBP06-B043CW-B:TVBP06-B043CW-B</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>649423B3</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>TVBP06-B043CW-B:TVBP06-B043CW-B</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64922BF5</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>644B3BAA</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>644B132F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML6344TRPBF</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="IRLML6344TRPBF" description="MOSFET N-CH 30V 5A SOT23"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>644ADB34</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>CX-0905C</value>
+      <footprint>CX-0905C:CX0905C</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/cx-0905c.pdf</datasheet>
+      <fields>
+        <field name="Description">Piezo Buzzers &amp; Audio Indicators Buzzers</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">CX-0905C</field>
+        <field name="Mouser Part Number">490-CX-0905C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/CX-0905C?qs=WyjlAZoYn51P%2Ft6rl%2F650A%3D%3D</field>
+      </fields>
+      <libsource lib="CX-0905C" part="CX-0905C" description="Piezo Buzzers &amp; Audio Indicators Buzzers"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>6445364F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B2AA22</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B66B73</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B75C90</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sensor&amp;UI/" tstamps="/6446DF75/"/>
+      <tstamp>64B84D1C</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>USART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>649CCA30</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>649FB6D8</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5" description=""/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>649FB6DE</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>I2C</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>649F76D5</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64A04F1A</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100μF</value>
+      <footprint>GRM31CR61A107MEA8K:CAPC3216X180N</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 100UF    10V   20%        3216</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM31CR61A107MEA8K</field>
+        <field name="Mouser Part Number">81-GRM31CR61A107MA8K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31CR61A107MEA8K?qs=hd1VzrDQEGiKPwOlEhCnYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM31CR61A107MEA8K" part="GRM31CR61A107MEA8K" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100UF    10V   20%        3216"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64A04F26</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1μF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</datasheet>
+      <fields>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+      </fields>
+      <libsource lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D" description="Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64A06E65</tstamp>
+    </comp>
+    <comp ref="IC23">
+      <value>NJM2391DL1</value>
+      <footprint>NJM2391DL1-33-TE1:TO-252-3-L1</footprint>
+      <fields>
+        <field name="Description">LDO Voltage Regulators LDO</field>
+        <field name="Manufacturer_Name">New Japan Radio</field>
+        <field name="Manufacturer_Part_Number">NJM2391DL1-33-TE1</field>
+        <field name="Mouser Part Number">513-NJM2391DL133-TE1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NJR/NJM2391DL1-33-TE1?qs=l%2FzmVEvW4JpmmNoqbD2bKw%3D%3D</field>
+      </fields>
+      <libsource lib="NJM2391DL1-33-TE1" part="NJM2391DL1-33-TE1" description="LDO Voltage Regulators LDO"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64A04F41</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>1k</value>
+      <footprint>RG2012N-103-B-T5:RESC2012X50N</footprint>
+      <libsource lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5" description=""/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64A31219</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64A31221</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>SW2</value>
+      <footprint>SKRPACE010:SMT_4.2X3.2_</footprint>
+      <datasheet>http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches 4.2x3.2x2.5mm 260gf</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">SKRPACE010</field>
+        <field name="Mouser Part Number">688-SKRPACE010</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D</field>
+      </fields>
+      <libsource lib="SKRPACE010" part="SKRPACE010" description="Tactile Switches 4.2x3.2x2.5mm 260gf"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64ACD307</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>RST_SW</value>
+      <footprint>SKRPACE010:SMT_4.2X3.2_</footprint>
+      <datasheet>http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches 4.2x3.2x2.5mm 260gf</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">SKRPACE010</field>
+        <field name="Mouser Part Number">688-SKRPACE010</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D</field>
+      </fields>
+      <libsource lib="SKRPACE010" part="SKRPACE010" description="Tactile Switches 4.2x3.2x2.5mm 260gf"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64ACF179</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>SW1</value>
+      <footprint>SKRPACE010:SMT_4.2X3.2_</footprint>
+      <datasheet>http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches 4.2x3.2x2.5mm 260gf</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">SKRPACE010</field>
+        <field name="Mouser Part Number">688-SKRPACE010</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D</field>
+      </fields>
+      <libsource lib="SKRPACE010" part="SKRPACE010" description="Tactile Switches 4.2x3.2x2.5mm 260gf"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>64A7A58F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TWE-L-WX</value>
+      <footprint>RF_Module:MonoWireless_TWE-L-WX</footprint>
+      <datasheet>https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf</datasheet>
+      <libsource lib="RF_ZigBee" part="TWE-L-WX" description="NXP JN5164/JN5169 breakout module, SMD"/>
+      <sheetpath names="/Wireless_Module/" tstamps="/64B0E7EC/"/>
+      <tstamp>649D2FF9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="16SEPC470M" part="16SEPC470M">
+      <description>Panasonic 470uF 16 V dc Polymer Aluminium Electrolytic Capacitor F13, OS-CON Series 5000h 10 x 13mm</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C247.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">16SEPC470M</field>
+        <field name="Footprint">CAPPRD500W65D1000H1300</field>
+        <field name="Datasheet">http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C247.pdf</field>
+        <field name="Description">Panasonic 470uF 16 V dc Polymer Aluminium Electrolytic Capacitor F13, OS-CON Series 5000h 10 x 13mm</field>
+        <field name="Height">13</field>
+        <field name="Mouser Part Number">667-16SEPC470M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/16SEPC470M?qs=OE1iw1LrrPEdZuWyF2l%252B5w%3D%3D</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">16SEPC470M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="503480-1200" part="503480-1200">
+      <description>FFC &amp; FPC Connectors .5mm FPC 12P CONN RA SMT B-FLIP DUAL</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/65e35df525de5b425777c2b4324b65df.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">503480-1200</field>
+        <field name="Footprint">5034801200</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/65e35df525de5b425777c2b4324b65df.pdf</field>
+        <field name="Description">FFC &amp; FPC Connectors .5mm FPC 12P CONN RA SMT B-FLIP DUAL</field>
+        <field name="Height">1.3</field>
+        <field name="Mouser Part Number">538-503480-1200</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/503480-1200?qs=bodV9ulq6Gw8h%2FV8uzKDbQ%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">503480-1200</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CX-0905C" part="CX-0905C">
+      <description>Piezo Buzzers &amp; Audio Indicators Buzzers</description>
+      <docs>https://www.cuidevices.com/product/resource/digikeypdf/cx-0905c.pdf</docs>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">CX-0905C</field>
+        <field name="Footprint">CX0905C</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/digikeypdf/cx-0905c.pdf</field>
+        <field name="Description">Piezo Buzzers &amp; Audio Indicators Buzzers</field>
+        <field name="Height">5.5</field>
+        <field name="Mouser Part Number">490-CX-0905C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/CX-0905C?qs=WyjlAZoYn51P%2Ft6rl%2F650A%3D%3D</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">CX-0905C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FDS6576" part="FDS6576">
+      <description>FDS6576, P-channel MOSFET Transistor 11 A 20 V, 8-Pin SOIC</description>
+      <docs>https://www.onsemi.com/pub/Collateral/751EB.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">FDS6576</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/751EB.PDF</field>
+        <field name="Description">FDS6576, P-channel MOSFET Transistor 11 A 20 V, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">512-FDS6576</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDS6576?qs=FOlmdCx%252BAA1N14vq5QZP7Q%3D%3D</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">FDS6576</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="BiDi"/>
+        <pin num="2" name="G" type="BiDi"/>
+        <pin num="3" name="D" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="GRM188R6YA106MA73D" part="GRM188R6YA106MA73D">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp</description>
+      <docs>http://componentsearchengine.com/Datasheets/1/GRM188R6YA106MA73D.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM188R6YA106MA73D</field>
+        <field name="Footprint">CAPC1608X90N</field>
+        <field name="Datasheet">http://componentsearchengine.com/Datasheets/1/GRM188R6YA106MA73D.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp</field>
+        <field name="Height">0.9</field>
+        <field name="Mouser Part Number">81-GRM188R6YA106MA3D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R6YA106MA73D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GRM188R72A104KA35D" part="GRM188R72A104KA35D">
+      <description>Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM188R72A104KA35D</field>
+        <field name="Footprint">CAPC1608X90N</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ec4f1577dddcc7a13ddad897a28002d3.pdf</field>
+        <field name="Description">Murata 0603 (1608M) 100nF MLCC 100V dc +/-10% SMD GRM188R72A104KA35D</field>
+        <field name="Height">0.9</field>
+        <field name="Mouser Part Number">81-GRM188R72A104KA35</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM188R72A104KA35D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GRM31CR61A107MEA8K" part="GRM31CR61A107MEA8K">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 100UF    10V   20%        3216</description>
+      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM31CR61A107MEA8K</field>
+        <field name="Footprint">CAPC3216X180N</field>
+        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 100UF    10V   20%        3216</field>
+        <field name="Height">1.8</field>
+        <field name="Mouser Part Number">81-GRM31CR61A107MA8K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31CR61A107MEA8K?qs=hd1VzrDQEGiKPwOlEhCnYw%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM31CR61A107MEA8K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MHSS1104" part="MHSS1104">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MHSS1104</field>
+        <field name="Footprint">SW_MHSS1104</field>
+        <field name="MANUFACTURER">APEM Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">5.5mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MPU-6500" part="MPU-6500">
+      <description>IMUs - Inertial Measurement Units 6-Axis MEMS MotionTracking  Device with DMP</description>
+      <docs>https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6500-datasheet2.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MPU-6500</field>
+        <field name="Footprint">QFN40P300X300X95-25N-D</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6500-datasheet2.pdf</field>
+        <field name="Description">IMUs - Inertial Measurement Units 6-Axis MEMS MotionTracking  Device with DMP</field>
+        <field name="Height">0.95</field>
+        <field name="Mouser Part Number">410-MPU-6500</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/MPU-6500?qs=u4fy%2FsgLU9PiIOIlWOSPhQ%3D%3D</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">MPU-6500</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_1" type="passive"/>
+        <pin num="2" name="NC_2" type="passive"/>
+        <pin num="3" name="NC_3" type="passive"/>
+        <pin num="4" name="NC_4" type="passive"/>
+        <pin num="5" name="NC_5" type="passive"/>
+        <pin num="6" name="NC_6" type="passive"/>
+        <pin num="7" name="AUX_CL" type="passive"/>
+        <pin num="8" name="VDDIO" type="passive"/>
+        <pin num="9" name="SDO_/_AD0" type="passive"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="passive"/>
+        <pin num="12" name="INT" type="passive"/>
+        <pin num="13" name="VDD" type="passive"/>
+        <pin num="14" name="NC_7" type="passive"/>
+        <pin num="15" name="NC_8" type="passive"/>
+        <pin num="16" name="NC_9" type="passive"/>
+        <pin num="17" name="NC_10" type="passive"/>
+        <pin num="18" name="GND_1" type="passive"/>
+        <pin num="19" name="RESV_1" type="passive"/>
+        <pin num="20" name="RESV_2" type="passive"/>
+        <pin num="21" name="AUX_DA" type="passive"/>
+        <pin num="22" name="NCS" type="passive"/>
+        <pin num="23" name="SCL_/_SCLK" type="passive"/>
+        <pin num="24" name="SDA_/_SDI" type="passive"/>
+        <pin num="25" name="GND_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NJM2391DL1-05-TE1" part="NJM2391DL1-05-TE1">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">NJM2391DL1-05-TE1</field>
+        <field name="Footprint">TO-252-3-L1</field>
+        <field name="Description">LDO Voltage Regulators LDO</field>
+        <field name="Mouser Part Number">513-NJM2391DL133-TE1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NJR/NJM2391DL1-33-TE1?qs=l%2FzmVEvW4JpmmNoqbD2bKw%3D%3D</field>
+        <field name="Manufacturer_Name">New Japan Radio</field>
+        <field name="Manufacturer_Part_Number">NJM2391DL1-33-TE1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="passive"/>
+        <pin num="2" name="VO" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NJM2391DL1-33-TE1" part="NJM2391DL1-33-TE1">
+      <description>LDO Voltage Regulators LDO</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">NJM2391DL1-33-TE1</field>
+        <field name="Footprint">TO-252-3-L1</field>
+        <field name="Description">LDO Voltage Regulators LDO</field>
+        <field name="Mouser Part Number">513-NJM2391DL133-TE1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NJR/NJM2391DL1-33-TE1?qs=l%2FzmVEvW4JpmmNoqbD2bKw%3D%3D</field>
+        <field name="Manufacturer_Name">New Japan Radio</field>
+        <field name="Manufacturer_Part_Number">NJM2391DL1-33-TE1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="passive"/>
+        <pin num="2" name="VO" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_ZigBee" part="TWE-L-WX">
+      <aliases>
+        <alias>MW-R-WX</alias>
+      </aliases>
+      <description>NXP JN5164/JN5169 breakout module, SMD</description>
+      <docs>https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf</docs>
+      <footprints>
+        <fp>MonoWireless?TWE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TWE-L-WX</field>
+        <field name="Footprint">RF_Module:MonoWireless_TWE-L-WX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO0/PWM2" type="output"/>
+        <pin num="2" name="DO1/PWM3" type="BiDi"/>
+        <pin num="3" name="DIO18/DO1" type="BiDi"/>
+        <pin num="4" name="DIO19/DO2" type="BiDi"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="DIO4/DO3" type="BiDi"/>
+        <pin num="7" name="DIO5/PWM1" type="BiDi"/>
+        <pin num="8" name="DIO6/TX" type="BiDi"/>
+        <pin num="9" name="DIO7/RX" type="BiDi"/>
+        <pin num="10" name="DIO8/PWM4" type="BiDi"/>
+        <pin num="11" name="DIO9/DO4" type="BiDi"/>
+        <pin num="12" name="DIO10/M1" type="BiDi"/>
+        <pin num="13" name="DIO12/DI1" type="BiDi"/>
+        <pin num="14" name="DIO14/SCL" type="BiDi"/>
+        <pin num="15" name="DIO13/DI2" type="BiDi"/>
+        <pin num="16" name="DIO11/DI3" type="BiDi"/>
+        <pin num="17" name="DIO15/SDA" type="BiDi"/>
+        <pin num="18" name="DIO16/DI4" type="BiDi"/>
+        <pin num="19" name="DIO17/BPS" type="BiDi"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="~RESET" type="input"/>
+        <pin num="22" name="ADC2/AI3" type="input"/>
+        <pin num="23" name="ADC1/AI1" type="input"/>
+        <pin num="24" name="DIO0/AI2" type="BiDi"/>
+        <pin num="25" name="DIO1/AI4" type="BiDi"/>
+        <pin num="26" name="DIO2/M2" type="BiDi"/>
+        <pin num="27" name="DIO3/M3" type="BiDi"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="NC" type="NotConnected"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RG2012N-102-B-T5" part="RG2012N-102-B-T5">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RG2012N-102-B-T5</field>
+        <field name="Footprint">RESC2012X50N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="RG2012N-103-B-T5" part="RG2012N-103-B-T5">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RG2012N-103-B-T5</field>
+        <field name="Footprint">RESC2012X50N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="SKRPACE010" part="SKRPACE010">
+      <description>Tactile Switches 4.2x3.2x2.5mm 260gf</description>
+      <docs>http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SKRPACE010</field>
+        <field name="Footprint">SMT(4.2X3.2)</field>
+        <field name="Datasheet">http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html</field>
+        <field name="Description">Tactile Switches 4.2x3.2x2.5mm 260gf</field>
+        <field name="Mouser Part Number">688-SKRPACE010</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">SKRPACE010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TB6612FNG_C_8_EL" part="TB6612FNG,C,8,EL">
+      <description>otor / Motion / Ignition Controllers &amp; Drivers Brush Motor Driver IC</description>
+      <docs>http://toshiba.semicon-storage.com/info/docget.jsp?did=10660&amp;prodName=TB6612FNG</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TB6612FNG,C,8,EL</field>
+        <field name="Footprint">SOP65P760X160-24N</field>
+        <field name="Datasheet">http://toshiba.semicon-storage.com/info/docget.jsp?did=10660&amp;prodName=TB6612FNG</field>
+        <field name="Description">otor / Motion / Ignition Controllers &amp; Drivers Brush Motor Driver IC</field>
+        <field name="Height">1.6</field>
+        <field name="Mouser Part Number">757-TB6612FNGC8EL</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/TB6612FNGC8EL?qs=rsevcuukUAy2UalRuv4E%2FQ%3D%3D</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">TB6612FNG,C,8,EL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AO1_1" type="passive"/>
+        <pin num="2" name="AO1_2" type="passive"/>
+        <pin num="3" name="PGND1_1" type="passive"/>
+        <pin num="4" name="PGND1_2" type="passive"/>
+        <pin num="5" name="AO2_1" type="passive"/>
+        <pin num="6" name="AO2_2" type="passive"/>
+        <pin num="7" name="BO2_1" type="passive"/>
+        <pin num="8" name="BO2_2" type="passive"/>
+        <pin num="9" name="PGND2_1" type="passive"/>
+        <pin num="10" name="PGND2_2" type="passive"/>
+        <pin num="11" name="BO1_1" type="passive"/>
+        <pin num="12" name="BO1_2" type="passive"/>
+        <pin num="13" name="VM2" type="passive"/>
+        <pin num="14" name="VM3" type="passive"/>
+        <pin num="15" name="PWMB" type="passive"/>
+        <pin num="16" name="BIN2" type="passive"/>
+        <pin num="17" name="BIN1" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="STBY" type="passive"/>
+        <pin num="20" name="VCC" type="passive"/>
+        <pin num="21" name="AIN1" type="passive"/>
+        <pin num="22" name="AIN2" type="passive"/>
+        <pin num="23" name="PWMA" type="passive"/>
+        <pin num="24" name="VM1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPR-105F" part="TPR-105F">
+      <description>Miniature Reflective Object Sensor</description>
+      <docs>https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPR-105F</field>
+        <field name="Footprint">TPR-105F:TPR-105F</field>
+        <field name="Description">Miniature Reflective Object Sensor</field>
+        <field name="Height">1.7</field>
+        <field name="Mouser Part Number">512-QRE1113</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QRE1113?qs=ne66E0WZ%2FFkJiYCW1J5zEw%3D%3D</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">TPR-105</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tracer-rescue" part="STM32F405RGT6TR-STM32F405RGT6TR-Tracer-rescue">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">STM32F405RGT6TR-STM32F405RGT6TR-Tracer-rescue</field>
+        <field name="Footprint">QFP50P1200X1200X160-64N</field>
+        <field name="Datasheet">http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf</field>
+        <field name="Description">STM32F405RGT6TR, 32 bit ARM Cortex M4 MCU 168MHz 1024 kB Flash, 192 kB RAM, 2xUSB CAN I2C 64-Pin LQFP</field>
+        <field name="Height">1.6</field>
+        <field name="Mouser Part Number">511-STM32F405RGT6TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F405RGT6TR?qs=MavH1QghrkHshpR6GkvPIg%3D%3D</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">STM32F405RGT6TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="passive"/>
+        <pin num="2" name="PC13" type="passive"/>
+        <pin num="3" name="PC14" type="passive"/>
+        <pin num="4" name="PC15" type="passive"/>
+        <pin num="5" name="PH0" type="passive"/>
+        <pin num="6" name="PH1" type="passive"/>
+        <pin num="7" name="NRST" type="passive"/>
+        <pin num="8" name="PC0" type="passive"/>
+        <pin num="9" name="PC1" type="passive"/>
+        <pin num="10" name="PC2" type="passive"/>
+        <pin num="11" name="PC3" type="passive"/>
+        <pin num="12" name="VSSA" type="passive"/>
+        <pin num="13" name="VDDA" type="passive"/>
+        <pin num="14" name="PA0_WKUP" type="passive"/>
+        <pin num="15" name="PA1" type="passive"/>
+        <pin num="16" name="PA2" type="passive"/>
+        <pin num="17" name="PA3" type="passive"/>
+        <pin num="18" name="VSS_1" type="passive"/>
+        <pin num="19" name="VDD_1" type="passive"/>
+        <pin num="20" name="PA4" type="passive"/>
+        <pin num="21" name="PA5" type="passive"/>
+        <pin num="22" name="PA6" type="passive"/>
+        <pin num="23" name="PA7" type="passive"/>
+        <pin num="24" name="PC4" type="passive"/>
+        <pin num="25" name="PC5" type="passive"/>
+        <pin num="26" name="PB0" type="passive"/>
+        <pin num="27" name="PB1" type="passive"/>
+        <pin num="28" name="PB2" type="passive"/>
+        <pin num="29" name="PB10" type="passive"/>
+        <pin num="30" name="PB11" type="passive"/>
+        <pin num="31" name="VCAP_1" type="passive"/>
+        <pin num="32" name="VDD_2" type="passive"/>
+        <pin num="33" name="PB12" type="passive"/>
+        <pin num="34" name="PB13" type="passive"/>
+        <pin num="35" name="PB14" type="passive"/>
+        <pin num="36" name="PB15" type="passive"/>
+        <pin num="37" name="PC6" type="passive"/>
+        <pin num="38" name="PC7" type="passive"/>
+        <pin num="39" name="PC8" type="passive"/>
+        <pin num="40" name="PC9" type="passive"/>
+        <pin num="41" name="PA8" type="passive"/>
+        <pin num="42" name="PA9" type="passive"/>
+        <pin num="43" name="PA10" type="passive"/>
+        <pin num="44" name="PA11" type="passive"/>
+        <pin num="45" name="PA12" type="passive"/>
+        <pin num="46" name="PA13" type="passive"/>
+        <pin num="47" name="VCAP_2" type="passive"/>
+        <pin num="48" name="VDD_3" type="passive"/>
+        <pin num="49" name="PA14" type="passive"/>
+        <pin num="50" name="PA15" type="passive"/>
+        <pin num="51" name="PC10" type="passive"/>
+        <pin num="52" name="PC11" type="passive"/>
+        <pin num="53" name="PC12" type="passive"/>
+        <pin num="54" name="PD2" type="passive"/>
+        <pin num="55" name="PB3" type="passive"/>
+        <pin num="56" name="PB4" type="passive"/>
+        <pin num="57" name="PB5" type="passive"/>
+        <pin num="58" name="PB6" type="passive"/>
+        <pin num="59" name="PB7" type="passive"/>
+        <pin num="60" name="BOOT0" type="passive"/>
+        <pin num="61" name="PB8" type="passive"/>
+        <pin num="62" name="PB9" type="passive"/>
+        <pin num="63" name="VSS_2" type="passive"/>
+        <pin num="64" name="VDD_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-PH-K-S_LF__SN_">
+      <description>CONN HEADER VERT 3POS 2MM</description>
+      <docs>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B3B-PH-K-S_LF__SN_</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x3_P2mm_Drill1mm</field>
+        <field name="Datasheet">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="Digi-Key_PN">455-1705-ND</field>
+        <field name="MPN">B3B-PH-K-S(LF)(SN)</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-PH-K-S(LF)(SN)/455-1705-ND/926612</field>
+        <field name="Description">CONN HEADER VERT 3POS 2MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Transistors-FETs-MOSFETs-Single" part="IRLML6344TRPBF">
+      <description>MOSFET N-CH 30V 5A SOT23</description>
+      <docs>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML6344TRPBF</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="BiDi"/>
+        <pin num="2" name="S" type="BiDi"/>
+        <pin num="3" name="D" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="16SEPC470M">
+      <uri>C:/Installer/kicad_setup/parts/LIB_16SEPC470M/16SEPC470M/KiCad/16SEPC470M.pretty/16SEPC470M.lib</uri>
+    </library>
+    <library logical="503480-1200">
+      <uri>C:/Installer/kicad_setup/parts/LIB_503480-1200/503480-1200/KiCad/503480-1200.pretty/503480-1200.lib</uri>
+    </library>
+    <library logical="CX-0905C">
+      <uri>C:/Installer/kicad_setup/parts/LIB_CX-0905C/CX-0905C/CX-0905C.pretty/CX-0905C.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="FDS6576">
+      <uri>C:/Installer/kicad_setup/parts/LIB_FDS6576(MOSFET)/FDS6576/KiCad/FDS6576.pretty/FDS6576.lib</uri>
+    </library>
+    <library logical="GRM188R6YA106MA73D">
+      <uri>C:/Installer/kicad_setup/parts/LIB_GRM188R6YA106MA73D/GRM188R6YA106MA73D/KiCad/GRM188R6YA106MA73D.pretty/GRM188R6YA106MA73D.lib</uri>
+    </library>
+    <library logical="GRM188R72A104KA35D">
+      <uri>C:/Installer/kicad_setup/parts/LIB_GRM188R72A104KA35D/GRM188R72A104KA35D/KiCad/GRM188R72A104KA35D.pretty/GRM188R72A104KA35D.lib</uri>
+    </library>
+    <library logical="GRM31CR61A107MEA8K">
+      <uri>C:/Installer/kicad_setup/parts/LIB_GRM31CR61A107MEA8K/GRM31CR61A107MEA8K/KiCad/GRM31CR61A107MEA8K.pretty/GRM31CR61A107MEA8K.lib</uri>
+    </library>
+    <library logical="MHSS1104">
+      <uri>C:/Installer/kicad_setup/parts/MHSS1104.pretty/MHSS1104.lib</uri>
+    </library>
+    <library logical="MPU-6500">
+      <uri>C:/Installer/kicad_setup/parts/LIB_MPU-6500/MPU-6500/KiCad/MPU-6500.pretty/MPU-6500.lib</uri>
+    </library>
+    <library logical="NJM2391DL1-05-TE1">
+      <uri>C:/Installer/kicad_setup/parts/LIB_NJM2391DL1-05-TE1/NJM2391DL1-05-TE1/KiCad/NJM2391DL1-05-TE1.pretty/NJM2391DL1-05-TE1.lib</uri>
+    </library>
+    <library logical="NJM2391DL1-33-TE1">
+      <uri>C:/Installer/kicad_setup/parts/LIB_NJM2391DL1-33-TE1/NJM2391DL1-33-TE1/KiCad/NJM2391DL1-33-TE1.pretty/NJM2391DL1-33-TE1.lib</uri>
+    </library>
+    <library logical="RF_ZigBee">
+      <uri>C:\Program Files\KiCad\share\kicad\library/RF_ZigBee.lib</uri>
+    </library>
+    <library logical="RG2012N-102-B-T5">
+      <uri>C:/Installer/kicad_setup/parts/RG2012N-102-B-T5.pretty/RG2012N-102-B-T5.lib</uri>
+    </library>
+    <library logical="RG2012N-103-B-T5">
+      <uri>C:/Installer/kicad_setup/parts/RG2012N-103-B-T5.pretty/RG2012N-103-B-T5.lib</uri>
+    </library>
+    <library logical="SKRPACE010">
+      <uri>C:/Installer/kicad_setup/parts/LIB_SKRPACE010/SKRPACE010/KiCad/SKRPACE010.pretty/SKRPACE010.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="TB6612FNG_C_8_EL">
+      <uri>C:/Installer/kicad_setup/parts/LIB_TB6612FNG,C,8,EL/TB6612FNG,C,8,EL/KiCad/TB6612FNG.pretty/TB6612FNG_C_8_EL.lib</uri>
+    </library>
+    <library logical="TPR-105F">
+      <uri>C:/Installer/kicad_setup/parts/TPR-105F/TPR-105F.pretty/QRE1113.lib</uri>
+    </library>
+    <library logical="Tracer-rescue">
+      <uri>C:\Work\Hardware_Design\Tracer/Tracer-rescue.lib</uri>
+    </library>
+    <library logical="dk_Rectangular-Connectors-Headers-Male-Pins">
+      <uri>C:/Installer/kicad_setup/digikey-kicad-library-master/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib</uri>
+    </library>
+    <library logical="dk_Transistors-FETs-MOSFETs-Single">
+      <uri>C:/Installer/kicad_setup/digikey-kicad-library-master/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C26" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="IC6" pin="63"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R38" pin="1"/>
+      <node ref="IC6" pin="18"/>
+      <node ref="IC6" pin="12"/>
+      <node ref="R43" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="S5" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="S1" pin="6"/>
+      <node ref="S1" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="IC5" pin="20"/>
+      <node ref="IC5" pin="25"/>
+      <node ref="IC5" pin="18"/>
+      <node ref="IC5" pin="11"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J2" pin="4"/>
+      <node ref="J6" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="IC4" pin="1"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="LS1" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="3" name="USART1_RX">
+      <node ref="J6" pin="3"/>
+      <node ref="IC6" pin="43"/>
+    </net>
+    <net code="4" name="USART1_TX">
+      <node ref="J6" pin="4"/>
+      <node ref="IC6" pin="42"/>
+    </net>
+    <net code="5" name="Net-(C16-Pad1)">
+      <node ref="S5" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="IC6" pin="7"/>
+    </net>
+    <net code="6" name="Net-(C14-Pad1)">
+      <node ref="IC6" pin="47"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="7" name="+3V3">
+      <node ref="R14" pin="1"/>
+      <node ref="IC6" pin="1"/>
+      <node ref="IC7" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="IC4" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="IC5" pin="8"/>
+      <node ref="IC9" pin="3"/>
+      <node ref="IC5" pin="13"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="IC8" pin="3"/>
+      <node ref="IC10" pin="3"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="IC6" pin="48"/>
+      <node ref="IC6" pin="13"/>
+      <node ref="J4" pin="2"/>
+      <node ref="IC6" pin="19"/>
+      <node ref="IC6" pin="64"/>
+      <node ref="IC6" pin="32"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="IC1" pin="19"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(IC6-Pad49)">
+      <node ref="IC6" pin="49"/>
+    </net>
+    <net code="10" name="Net-(IC6-Pad54)">
+      <node ref="IC6" pin="54"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="12" name="Battery_AD">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="IC6" pin="27"/>
+    </net>
+    <net code="13" name="Net-(IC6-Pad30)">
+      <node ref="IC6" pin="30"/>
+    </net>
+    <net code="14" name="Net-(IC6-Pad29)">
+      <node ref="IC6" pin="29"/>
+    </net>
+    <net code="15" name="Net-(IC6-Pad14)">
+      <node ref="IC6" pin="14"/>
+    </net>
+    <net code="16" name="Net-(IC6-Pad6)">
+      <node ref="IC6" pin="6"/>
+    </net>
+    <net code="17" name="Net-(IC6-Pad5)">
+      <node ref="IC6" pin="5"/>
+    </net>
+    <net code="18" name="Net-(IC6-Pad34)">
+      <node ref="IC6" pin="34"/>
+    </net>
+    <net code="19" name="R1_Sens">
+      <node ref="J4" pin="3"/>
+      <node ref="IC6" pin="26"/>
+    </net>
+    <net code="20" name="Goal_S">
+      <node ref="R37" pin="1"/>
+      <node ref="IC6" pin="3"/>
+    </net>
+    <net code="21" name="Net-(IC6-Pad33)">
+      <node ref="IC6" pin="33"/>
+    </net>
+    <net code="22" name="R2_Sens">
+      <node ref="J4" pin="4"/>
+      <node ref="IC6" pin="25"/>
+    </net>
+    <net code="23" name="in1_L">
+      <node ref="IC1" pin="15"/>
+      <node ref="IC6" pin="35"/>
+    </net>
+    <net code="24" name="in2_L">
+      <node ref="IC1" pin="16"/>
+      <node ref="IC6" pin="36"/>
+    </net>
+    <net code="25" name="Net-(IC6-Pad37)">
+      <node ref="IC6" pin="37"/>
+    </net>
+    <net code="26" name="pwm_L">
+      <node ref="IC1" pin="17"/>
+      <node ref="IC6" pin="38"/>
+    </net>
+    <net code="27" name="pwm_R">
+      <node ref="IC1" pin="21"/>
+      <node ref="IC6" pin="39"/>
+    </net>
+    <net code="28" name="Line_S">
+      <node ref="IC6" pin="4"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="29" name="in2_R">
+      <node ref="IC6" pin="40"/>
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="30" name="in1_R">
+      <node ref="IC1" pin="23"/>
+      <node ref="IC6" pin="41"/>
+    </net>
+    <net code="31" name="L1_Sens">
+      <node ref="J4" pin="10"/>
+      <node ref="IC6" pin="17"/>
+    </net>
+    <net code="32" name="LED3">
+      <node ref="R35" pin="2"/>
+      <node ref="IC6" pin="10"/>
+    </net>
+    <net code="33" name="LED4">
+      <node ref="IC6" pin="11"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="34" name="G_Sens">
+      <node ref="IC6" pin="15"/>
+      <node ref="IC8" pin="4"/>
+      <node ref="R12" pin="1"/>
+      <node ref="IC7" pin="4"/>
+    </net>
+    <net code="35" name="C_Sens">
+      <node ref="IC10" pin="4"/>
+      <node ref="IC6" pin="16"/>
+      <node ref="R15" pin="1"/>
+      <node ref="IC9" pin="4"/>
+    </net>
+    <net code="36" name="Net-(IC6-Pad2)">
+      <node ref="IC6" pin="2"/>
+    </net>
+    <net code="37" name="L2_Sens">
+      <node ref="IC6" pin="20"/>
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="38" name="L3_Sens">
+      <node ref="J4" pin="8"/>
+      <node ref="IC6" pin="21"/>
+    </net>
+    <net code="39" name="L4_Sens">
+      <node ref="J4" pin="7"/>
+      <node ref="IC6" pin="22"/>
+    </net>
+    <net code="40" name="R4_Sens">
+      <node ref="IC6" pin="23"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="41" name="R3_Sens">
+      <node ref="IC6" pin="24"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="42" name="Boot">
+      <node ref="SW3" pin="2"/>
+      <node ref="IC6" pin="61"/>
+      <node ref="IC6" pin="60"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="43" name="Switch1">
+      <node ref="SW2" pin="2"/>
+      <node ref="IC6" pin="62"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="44" name="LED1">
+      <node ref="R7" pin="2"/>
+      <node ref="IC6" pin="8"/>
+    </net>
+    <net code="45" name="LED2">
+      <node ref="IC6" pin="9"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="46" name="gyro_miso">
+      <node ref="IC5" pin="9"/>
+      <node ref="IC6" pin="52"/>
+    </net>
+    <net code="47" name="Corner_S">
+      <node ref="IC6" pin="44"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="48" name="Net-(IC6-Pad45)">
+      <node ref="IC6" pin="45"/>
+    </net>
+    <net code="49" name="Net-(IC6-Pad46)">
+      <node ref="IC6" pin="46"/>
+    </net>
+    <net code="50" name="mpu_cs">
+      <node ref="IC5" pin="22"/>
+      <node ref="IC6" pin="50"/>
+    </net>
+    <net code="51" name="gyro_clk">
+      <node ref="IC5" pin="23"/>
+      <node ref="IC6" pin="51"/>
+    </net>
+    <net code="52" name="gyro_mosi">
+      <node ref="IC6" pin="53"/>
+      <node ref="IC5" pin="24"/>
+    </net>
+    <net code="53" name="BUZZER">
+      <node ref="R9" pin="1"/>
+      <node ref="IC6" pin="55"/>
+    </net>
+    <net code="54" name="outA_L">
+      <node ref="J3" pin="2"/>
+      <node ref="IC6" pin="56"/>
+    </net>
+    <net code="55" name="outB_L">
+      <node ref="J3" pin="1"/>
+      <node ref="IC6" pin="57"/>
+    </net>
+    <net code="56" name="outA_R">
+      <node ref="J2" pin="6"/>
+      <node ref="IC6" pin="58"/>
+    </net>
+    <net code="57" name="outB_R">
+      <node ref="J2" pin="5"/>
+      <node ref="IC6" pin="59"/>
+    </net>
+    <net code="58" name="Net-(IC6-Pad28)">
+      <node ref="R43" pin="1"/>
+      <node ref="IC6" pin="28"/>
+    </net>
+    <net code="59" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="IC6" pin="31"/>
+    </net>
+    <net code="60" name="Net-(S1-Pad1)">
+      <node ref="S1" pin="2"/>
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="61" name="Net-(IC2-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="S1" pin="3"/>
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="62" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="63" name="M1_L">
+      <node ref="IC1" pin="8"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="64" name="+12V">
+      <node ref="IC1" pin="14"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="24"/>
+      <node ref="C6" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="65" name="M1_R">
+      <node ref="IC1" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="66" name="M2_R">
+      <node ref="J2" pin="2"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="67" name="Net-(IC5-Pad19)">
+      <node ref="IC5" pin="19"/>
+    </net>
+    <net code="68" name="Net-(IC5-Pad15)">
+      <node ref="IC5" pin="15"/>
+    </net>
+    <net code="69" name="Net-(IC5-Pad7)">
+      <node ref="IC5" pin="7"/>
+    </net>
+    <net code="70" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="IC5" pin="10"/>
+    </net>
+    <net code="71" name="Net-(IC5-Pad12)">
+      <node ref="IC5" pin="12"/>
+    </net>
+    <net code="72" name="Net-(IC5-Pad17)">
+      <node ref="IC5" pin="17"/>
+    </net>
+    <net code="73" name="Net-(IC5-Pad16)">
+      <node ref="IC5" pin="16"/>
+    </net>
+    <net code="74" name="Net-(IC5-Pad6)">
+      <node ref="IC5" pin="6"/>
+    </net>
+    <net code="75" name="Net-(IC5-Pad14)">
+      <node ref="IC5" pin="14"/>
+    </net>
+    <net code="76" name="Net-(IC5-Pad21)">
+      <node ref="IC5" pin="21"/>
+    </net>
+    <net code="77" name="Net-(IC5-Pad1)">
+      <node ref="IC5" pin="1"/>
+    </net>
+    <net code="78" name="Net-(IC5-Pad2)">
+      <node ref="IC5" pin="2"/>
+    </net>
+    <net code="79" name="Net-(IC5-Pad3)">
+      <node ref="IC5" pin="3"/>
+    </net>
+    <net code="80" name="Net-(IC5-Pad4)">
+      <node ref="IC5" pin="4"/>
+    </net>
+    <net code="81" name="Net-(IC5-Pad5)">
+      <node ref="IC5" pin="5"/>
+    </net>
+    <net code="82" name="M2_L">
+      <node ref="J3" pin="5"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="83" name="Net-(IC9-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="IC9" pin="1"/>
+    </net>
+    <net code="84" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="85" name="Net-(D5-Pad1)">
+      <node ref="R36" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="86" name="Net-(IC7-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="IC7" pin="1"/>
+    </net>
+    <net code="87" name="Net-(Q4-Pad1)">
+      <node ref="R40" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="88" name="L1_S">
+      <node ref="IC18" pin="4"/>
+      <node ref="J5" pin="3"/>
+      <node ref="IC17" pin="4"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="89" name="L2_S">
+      <node ref="R32" pin="1"/>
+      <node ref="IC19" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="IC20" pin="4"/>
+    </net>
+    <net code="90" name="L3_S">
+      <node ref="R33" pin="1"/>
+      <node ref="IC21" pin="4"/>
+      <node ref="J5" pin="5"/>
+      <node ref="IC22" pin="4"/>
+    </net>
+    <net code="91" name="Net-(J4-PadMP2)">
+      <node ref="J4" pin="MP2"/>
+    </net>
+    <net code="92" name="Net-(J4-PadMP1)">
+      <node ref="J4" pin="MP1"/>
+    </net>
+    <net code="93" name="Net-(J5-PadMP2)">
+      <node ref="J5" pin="MP2"/>
+    </net>
+    <net code="94" name="Net-(J5-PadMP1)">
+      <node ref="J5" pin="MP1"/>
+    </net>
+    <net code="95" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="96" name="Net-(J5-Pad7)">
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="97" name="R3_S">
+      <node ref="IC15" pin="4"/>
+      <node ref="R24" pin="1"/>
+      <node ref="IC16" pin="4"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="98" name="R2_S">
+      <node ref="IC13" pin="4"/>
+      <node ref="R23" pin="1"/>
+      <node ref="IC14" pin="4"/>
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="99" name="+3.3V1">
+      <node ref="IC17" pin="3"/>
+      <node ref="R30" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="IC15" pin="3"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="IC20" pin="3"/>
+      <node ref="R26" pin="1"/>
+      <node ref="IC12" pin="3"/>
+      <node ref="IC14" pin="3"/>
+      <node ref="IC13" pin="3"/>
+      <node ref="IC16" pin="3"/>
+      <node ref="IC11" pin="3"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="IC18" pin="3"/>
+      <node ref="IC21" pin="3"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J5" pin="12"/>
+      <node ref="IC19" pin="3"/>
+      <node ref="J5" pin="11"/>
+      <node ref="R20" pin="1"/>
+      <node ref="IC22" pin="3"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="100" name="GND1">
+      <node ref="IC22" pin="2"/>
+      <node ref="IC21" pin="2"/>
+      <node ref="IC16" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="IC11" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="IC13" pin="2"/>
+      <node ref="IC15" pin="2"/>
+      <node ref="IC20" pin="2"/>
+      <node ref="IC19" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="IC18" pin="2"/>
+      <node ref="IC14" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="IC12" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="IC17" pin="2"/>
+    </net>
+    <net code="101" name="Net-(J4-Pad11)">
+      <node ref="Q4" pin="3"/>
+      <node ref="J4" pin="11"/>
+      <node ref="J4" pin="12"/>
+    </net>
+    <net code="102" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="103" name="Net-(D3-Pad1)">
+      <node ref="R34" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="104" name="Net-(LS1-Pad2)">
+      <node ref="LS1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="105" name="Net-(Q1-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="106" name="Net-(IC11-Pad1)">
+      <node ref="IC11" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="107" name="Net-(IC22-Pad1)">
+      <node ref="IC22" pin="1"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="108" name="Net-(IC19-Pad1)">
+      <node ref="IC19" pin="1"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="109" name="Net-(IC15-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="IC15" pin="1"/>
+    </net>
+    <net code="110" name="R1_S">
+      <node ref="R22" pin="1"/>
+      <node ref="IC12" pin="4"/>
+      <node ref="J5" pin="10"/>
+      <node ref="IC11" pin="4"/>
+    </net>
+    <net code="111" name="Net-(IC16-Pad1)">
+      <node ref="IC16" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="112" name="Net-(IC13-Pad1)">
+      <node ref="IC13" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="113" name="Net-(IC12-Pad1)">
+      <node ref="IC12" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="114" name="Net-(IC14-Pad1)">
+      <node ref="IC14" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="115" name="Net-(IC10-Pad2)">
+      <node ref="IC10" pin="2"/>
+      <node ref="IC9" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="116" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="117" name="Net-(IC7-Pad2)">
+      <node ref="IC8" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="IC7" pin="2"/>
+    </net>
+    <net code="118" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="119" name="Net-(IC10-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="IC10" pin="1"/>
+    </net>
+    <net code="120" name="Net-(IC17-Pad1)">
+      <node ref="R25" pin="2"/>
+      <node ref="IC17" pin="1"/>
+    </net>
+    <net code="121" name="Net-(IC18-Pad1)">
+      <node ref="R26" pin="2"/>
+      <node ref="IC18" pin="1"/>
+    </net>
+    <net code="122" name="Net-(IC8-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="IC8" pin="1"/>
+    </net>
+    <net code="123" name="Net-(IC21-Pad1)">
+      <node ref="IC21" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="124" name="Net-(IC20-Pad1)">
+      <node ref="R28" pin="2"/>
+      <node ref="IC20" pin="1"/>
+    </net>
+    <net code="125" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="126" name="GND2">
+      <node ref="D6" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="J8" pin="1"/>
+      <node ref="U1" pin="32"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U1" pin="28"/>
+      <node ref="U1" pin="31"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="S3" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="S4" pin="1"/>
+      <node ref="IC23" pin="3"/>
+    </net>
+    <net code="127" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="128" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="129" name="+5V1">
+      <node ref="IC23" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="130" name="Net-(D6-Pad2)">
+      <node ref="R46" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="131" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="132" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="133" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="134" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="135" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="136" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="137" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="138" name="Boot1">
+      <node ref="U1" pin="2"/>
+      <node ref="S2" pin="2"/>
+      <node ref="R45" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="139" name="Net-(S4-Pad2)">
+      <node ref="U1" pin="21"/>
+      <node ref="S4" pin="2"/>
+    </net>
+    <net code="140" name="SW2">
+      <node ref="U1" pin="4"/>
+      <node ref="S3" pin="2"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="141" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="142" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="143" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="144" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="145" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="146" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="147" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="148" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="149" name="+3.3V_1">
+      <node ref="R46" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="IC23" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="150" name="SCL">
+      <node ref="J8" pin="3"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="151" name="SDA">
+      <node ref="U1" pin="17"/>
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="152" name="USART_TX">
+      <node ref="J7" pin="3"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="153" name="USART_RX">
+      <node ref="J7" pin="4"/>
+      <node ref="U1" pin="9"/>
+    </net>
+  </nets>
+</export>
